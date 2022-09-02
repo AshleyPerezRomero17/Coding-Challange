@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Get to know you quiz</title>
+</head>
+
+<body>
+    
+    <form>
+    <h1 style="text-align: center;">Get to know you quiz!</h1>
+
+    <div>
+        <label for="fname">First Name:</label>
+        <input type="text" name="firstname" placeholder="Your first name.." required>
+        </div>
+
+    <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lastname" placeholder="Your last name.." required>
+    </div>
+
+    <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="birthday">
+    </div>
+
+    <div>
+        <label for="color">Favorite Color</label>
+        <input type="color" name="favorite color">
+    </div>
+
+    <div>
+        <label for="letter">Get to know you letter:</label>
+        <input type="file" name="get to know you letter">
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="name@gmail.com"  required>
+    </div>
+    
+    <div>
+    <label for="phone">Phone Number:</label>
+<input type="tel"  name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required>
+    </div>
+
+    <div>
+        <label for="kids">Do you have any kids? If so how many?</label>
+        <input type="number" name="do you have any kids?" placeholder="type here..">
+    </div>
+
+    <div>
+        <label for="consent">Do you give consent to share this information</label><br>
+        <label>Yes</label> 
+        <input type="checkbox" name="consent">
+        <label>No</label>
+        <input type="checkbox" name="consent">
+    </div>
+
+    <div>
+        <label for="time">What is the current time?</label>
+        <input type="time" name="time" required>
+    </div>
+
+    <div>
+        <label for="date">What is todays date?</label>
+        <input type="date" name="date">
+    </div>
+    
+    <div>
+        <label for="feedback">Message For Feedback:</label><br>
+        <textarea  name="Message For Feedback" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+
+    <div>
+    <input type="submit" value="Submit">
+    </div>
+    </form>
+    
+</body>
+</html>
